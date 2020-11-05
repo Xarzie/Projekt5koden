@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PermakulturDanmark</title>
+    <link rel="stylesheet" href="css/hstyletile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <!--font-family: 'Questrial', sans-serif;-->
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <!--font-family: 'Crimson Text', serif;-->
+    <script src="java/javascript.js" defer></script>
+</head>
+<nav class="stickytopbar">
+    <div id="topbar">
+        <div id="sections_btn_holder">
+            <button onclick="toggleNavPanel('sections_panel')"><span id="navarrow">&#9776;</span></button>
+        </div>
+        <div id="sections_panel">
+            <div>
+                <div class="containerx">
+                    <img class="backgroundmenu" src="picture/logbackground.jpg" alt="træbaggrund">
+                    <p class="permaKulturDanmark">Permakultur Danmark</p>
+                    <p><a href="#" class="hvemErVi">Hvem‎ er vi</a></p>
+
+                    <p><a href="#" class=hvadErPermakultur>Hvad er permakultur</a></p>
+
+                    <p><a href="#" class="faktaOgData">Fakta og data</a></p>
+
+                    <p><a href="#" class="voresArbejde">Vores arbejde</a></p>
+
+                    <p><a href="#" class="voresTeam">Vores team</a></p>
+
+                    <p><a href="#" class="kontaktOs">Kontakt os</a></p>
+
+                    <p><a href="#" class=findOs>Find os</a></p>
+
+                    <p class="SocialMedia">Social Media</a></p>
+
+
+                    <img src="picture/TRIPPASNIPPA.png" class="Facebook" alt="danskflag" width="56" height="56">
+                    <img src="picture/TRIPPASNIPPA.png" class="Instagram" alt="franskflag" width="56" height="56">
+                    <img src="picture/TRIPPASNIPPA.png" class="Youtube" alt="britiskflag" width="56" height="56">
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<body>
+    <main>
+        <article>
+            <section class="contactus">
+                <ul>
+                    <li>
+                        <img src="picture/20160527_183734.jpg" alt="testbillede">
+                    </li>
+                    <li>
+                        <span>
+                            <p class="margintopparagraf">Her ser du et test billede og en test tekst som ikke giver
+                                mening
+                                men ja du læser den alligevel<br>
+                                fordi ja du er en test person,<br> derfor læser du dette
+                                hurrah, yey, amen hvad laver du, stop med at læse det her,<br> du ved godt at du ikke
+                                vil
+                                læse det her
+                                så stop dig selvv før du gør noget dumt.
+
+                            </p>
+                        </span>
+                        <p>yey mere tekst hvad havde du ellers regnet med hva smarte?</p>
+                    </li>
+                </ul>
+
+            </section>
+
+            <div>
+                <section class="contactus">
+                    <ul>
+                        <li>
+                            <img src="picture/TRIPPASNIPPA.png" alt="entrippasnippa">
+                        </li>
+                        <li>
+                            <span>
+                                <p class="margintopparagraf">Du er igang med at kontakte</p>
+                                <p class="margintopparagraf">PermakulturDanmark</p>
+                                <p class="margintopparagraf">Hillerød, Danmark</p>
+                                <p class="margintopparagraf">C/O Tanja Condrea</p>
+                                <p class="margintopparagraf">Møllevænget 3</p>
+                                <p class="margintopparagraf">Mail: Post@Permakultur-Danmark.dk</p>
+                                <p class="margintopparagraf">Telefon: 50 38 51 12 - Her kan du få en snak med Lou
+                                    Langdon fra bestyrelsen.</p>
+                                <br>
+                            </span>
+                            <h5>Udfyld kontakt boksen og så vil du høre nærmere fra os.<h5>
+                                    <form class="contact-form" action="sendbesked.php" method="post">
+                                        <input id="ditnavn" type="text" name="name" placeholder="Navn"
+                                            onkeyup="kunbogstavernavn(this)">
+                                        <div class="tekstsizeiforkerttegnnavn" id="forkerttegn"></div>
+                                        <br>
+                                        <input id="dinmail" type="text" name="email" placeholder="Din Email"
+                                            onkeyup="kunbogstavermail(this)">
+                                        <div class="tekstsizeiforkerttegnnavn" id="forkerttegnmail"></div>
+                                        <br>
+                                        <input type="text" name="subject" placeholder="Emne"
+                                            onkeyup="kunbogstaveremne(this)">
+                                        <div class="tekstsizeiforkerttegnnavn" id=forkerttegnemne></div>
+                                        <br>
+                                        <textarea name="message" placeholder="Besked"></textarea>
+                                        <br>
+                                        <button type="sumbit" name="submit">Send</button>
+                                    </form>
+                        </li>
+                    </ul>
+            </div>
+        </article>
+        </section>
+    </main>
+</body>
+<footer>
+</footer>
+</div>
+
+</html>
