@@ -15,7 +15,8 @@ body {
     width: 42%;
     margin-right: 8%;
     list-style-type: none; 
-    margin-bottom: 50px;
+    margin-bottom: -10%;
+    margin-top: 300px;
   }
   
   .contactus li img{
@@ -23,12 +24,18 @@ body {
     margin-bottom: 50px;
     margin-left: 25%;
     height: 516px;
+   
   }
   
   .contactus li span {
   line-height: 1.8;
   font-size: 1.1em;
+  
   }
+  .contactus li span p {
+    margin-top: 0%;
+  }
+ 
   
   .contactus ul:after{
     content: "";
@@ -125,9 +132,9 @@ body {
       padding-top:5px;
       padding-bottom: 5px; 
       z-index: 20000;
-      
-      
+      margin-left: 1%;
       }
+
       div#topbar > #sections_btn_holder > button{ 
       color: #000;
       text-shadow: -1px -1px 0 #606060;
@@ -137,9 +144,9 @@ body {
       outline: none; 
       border: none;
       background-color: #eeeeee00;
-      
-      
+      margin-left: 1%;
       }
+      
       div#topbar > #sections_panel{
       position: absolute;
       height: 0px;
@@ -149,6 +156,7 @@ body {
       overflow:hidden;
       z-index:10000;
       transition: height 0.3s cubic-bezier(.24,.57,.91,.74) 0s;
+      margin-left: 1%;
       }
     
     div#topbar > #sections_panel > div{
@@ -158,6 +166,7 @@ body {
    .stickytopbar {
       position: sticky;
       top: 0;
+      margin-left: 1%;
     }
     
 
@@ -280,6 +289,64 @@ body {
   }
   
   
+/* Lasses kode */
+#imageSlides {
+  margin-left: 25%;
+ 
+}
+
+
+
+
+header{
+  display:flex;
+}
+
+header > div{
+  min-width:85%;
+  
+  min-height:200px;
+}
+header > div > div{
+  flex-direction: column;
+  width:100%;
+  min-height:50%;
+
+
+}
+
+
+#imageSlides img{
+  width: 100%;
+ max-height: auto;
+ max-width: 50%;
+ 
+
+}
+
+.slide{
+  transition: opacity 2s ease-out;
+  position: absolute;
+  display: flex;
+  width:100%;
+}
+.slide h3{
+  position: absolute;
+  top:75px;
+  left:18%;
+  font-size: 2em;
+  color: #ffffff;
+  text-shadow: -1px -1px 0 #000;
+
+}
+.slide img{
+  width:85%;
+  height:auto;
+}
+
+
+
+
 
 
 
@@ -301,12 +368,14 @@ body {
 }
 
 .contactus li img {
-  margin-bottom: 6px;
+  margin-bottom: 8%;
   margin-right: 40%;
   height: 25%;
   width: 30%;
   margin-left: 10%;
+  margin-top: 30px;
 }
+
 
 .contactus h3 {
   font-size: 1.15em;
@@ -325,26 +394,60 @@ body {
     .contactus li img{
       width: 80%; 
       margin-left: 10px;
+}
+.contactus li span p {
+  margin-top: 10%;
 }}
+
+
 @media screen and (max-width: 800px) {
-  .contactus h3 {
+  .contactus h5 {
     font-size: 1.15em;
+    margin-left: 0%;
+    margin-right: 5%
   }
   .contact-form input {
-    width: 500px;
+    width: 400px;
+    margin-left: 0%;
+    margin-right: 5%
   }
   
   .contact-form button {
-    width: 510px;
+    width: 410px;
+    margin-left: 0%;
+    margin-right: 5%
     }
   
     .contactus textarea {
-      width: 500px;
+      width: 400px;
+      margin-left: 0%;
+      margin-right: 5%
       }
+      .contactus li span p {
+        margin-top: 10%; 
+        margin-left: 0%;
+        margin-right: 5% 
+      }
+      .contactus li img {
+        margin-left: 5%;
+      }
+      div#topbar > #sections_btn_holder > button{ 
+        margin-left: 1% }
+        div#topbar > #sections_btn_holder{
+          margin-left: 1%}
+          div#topbar > #sections_panel{
+            margin-left: 1%; }
+            div#topbar > #sections_panel > div{
+              margin-left: 1% }
+              .stickytopbar { 
+                margin-left: 1%;
+              }
+
 
       @media screen and (max-width: 600px) {
-        .contactus h3 {
+        .contactus h5 {
           font-size: 1.15em;
+          margin-left: 0%;
         }
         .contact-form input {
           width: 550px;
