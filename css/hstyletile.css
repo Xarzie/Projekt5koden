@@ -1,4 +1,5 @@
 body {
+
   font-family: 'Questrial', sans-serif;
 }
 
@@ -9,7 +10,7 @@ body {
  
   .overSkrift {
     font-weight: bold;
-    font-size: 1.15em;
+    font-size: 1.1em;
   }
   
   .contactus ul{
@@ -83,7 +84,7 @@ body {
       color: gray;
       border-color: black;
       font-size: 1em;
-      margin-bottom: 0.5em;
+      margin-bottom: 100px;
       margin-top: 23px;
       background-color: white;
       }
@@ -100,9 +101,11 @@ body {
 
       .contactus h5 {
         font-size: 1.4em;
-        margin-top: -3%;
+        margin-top: 10%;
         margin-bottom: 6%;
       }
+      
+
 .tekstsizeiforkerttegnnavn {
   font-size: 0.8em;
   color: red;
@@ -112,6 +115,7 @@ body {
 .margintopparagraf {
   margin-top: -1.5%;
 }
+
 
 /* menu */
 
@@ -183,8 +187,7 @@ body {
   top: -20px;
   left: 20%;
   max-width: 320px;
-  height: 600px;
-  border-radius: 0px 10px 10px 0px;
+  height: 620px;
 }
   .permaKulturDanmark {
     position: absolute;
@@ -288,13 +291,15 @@ body {
   top: 460px;
   left: 120px;
   }
-  .Facebook {
+  .logoiMenu {
   position: absolute;
-  top: 460px;
-  left: 205px;
+  top: 400px;
+  left: 75px;
   }
   
+
   
+
 /* Lasses kode */
 #imageSlides {
   margin-left: 25%;
@@ -364,6 +369,18 @@ header > div > div{
       /* Media qurries */
 
 @media screen and (max-width: 1100px) {
+  div#topbar > #sections_btn_holder > button{ 
+    margin-left: 0.5% }
+    div#topbar > #sections_btn_holder{
+      margin-left: 0.5%}
+      div#topbar > #sections_panel{
+        margin-left: 0.5%; }
+        div#topbar > #sections_panel > div{
+          margin-left: 0.5% }
+          .stickytopbar { 
+            margin-left: 0.5%;
+          }
+
 
 /* Contact */
 .contactus li{
@@ -385,8 +402,7 @@ header > div > div{
 
 .contactus h5 {
   font-size: 1.15em;
-  margin-top: 50px;
-  margin-bottom: -50px;
+  margin-bottom: 40px;
 }
 .contact-form input {
   width: 500px;
@@ -440,19 +456,20 @@ header > div > div{
         margin-left: 5%;
       }
       div#topbar > #sections_btn_holder > button{ 
-        margin-left: 1% }
+        margin-left: 0.5% }
         div#topbar > #sections_btn_holder{
-          margin-left: 1%}
+          margin-left: 0.5%}
           div#topbar > #sections_panel{
-            margin-left: 1%; }
+            margin-left: 0.5%; }
             div#topbar > #sections_panel > div{
-              margin-left: 1% }
+              margin-left: 0.5% }
               .stickytopbar { 
-                margin-left: 1%;
+                margin-left: 0.5%;
               }
-
+            
 
       @media screen and (max-width: 600px) {
+       
         .contactus h5 {
           font-size: 1.15em;
           margin-left: 0%;
@@ -473,6 +490,7 @@ header > div > div{
     }}
 
 @media screen and (max-width: 450px) {
+
   .contactus h3 {
     font-size: 1.2em;
   }
