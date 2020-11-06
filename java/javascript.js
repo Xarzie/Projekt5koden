@@ -40,6 +40,10 @@ function toggleNavPanel(x) {
         navarrow.innerHTML = "&#9776";
     }
 }
+
+
+/* lasses kode */
+
 let image1 = { src: "img1.png", alt: "123", bannertext: "Omsorg for mennesker" };
 let image2 = { src: "img2.png", alt: "345", bannertext: "Ligelig fordeling af ressourcer" };
 let image3 = { src: "img3.png", alt: "567", bannertext: "Omsorg for Jorden" };
