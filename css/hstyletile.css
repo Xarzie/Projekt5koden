@@ -1,6 +1,7 @@
 body {
 
   font-family: 'Questrial', sans-serif;
+  background: #eaeaea;
 }
 
 /* Contactus Float for all article Content. */ 
@@ -84,7 +85,6 @@ body {
       color: gray;
       border-color: black;
       font-size: 1em;
-      margin-bottom: 100px;
       margin-top: 23px;
       background-color: white;
       }
@@ -142,7 +142,7 @@ body {
       padding-top:5px;
       padding-bottom: 5px; 
       z-index: 20000;
-      margin-left: 1%;
+      margin-left: -0%;
       }
 
       div#topbar > #sections_btn_holder > button{ 
@@ -154,7 +154,7 @@ body {
       outline: none; 
       border: none;
       background-color: #eeeeee00;
-      margin-left: 1%;
+      margin-left: -0%;
       }
       
       div#topbar > #sections_panel{
@@ -166,7 +166,7 @@ body {
       overflow:hidden;
       z-index:10000;
       transition: height 0.3s cubic-bezier(.24,.57,.91,.74) 0s;
-      margin-left: 1%;
+      margin-left: -0%;
       }
     
     div#topbar > #sections_panel > div{
@@ -176,7 +176,7 @@ body {
    .stickytopbar {
       position: sticky;
       top: 0;
-      margin-left: 1%;
+      margin-left: -0%;
     }
     
 
@@ -296,6 +296,56 @@ body {
   top: 400px;
   left: 75px;
   }
+
+
+  .footerSM h5 {
+    font-size: 1.4em;
+  }
+
+
+  .footerSM{
+    margin-top: 0px;
+  }
+ 
+  .footerSM ul{
+    padding: 0;
+  }
+  
+  .footerSM li{
+    float: left;
+    width: 50%;
+    margin-left: 16.5%;
+    list-style-type: none; 
+    margin-bottom: -10%;
+    margin-top: 300px;
+  }
+  
+  .footerSM li img{
+    width: 256px;
+    margin-bottom: 50px;
+    margin-left: 1%;
+    margin-right: 2%;
+    height: 256px;
+   
+  }
+  
+  .footerSM li span {
+  line-height: 1.8;
+  font-size: 1.1em;
+  
+  }
+  .footerSM li span p {
+    margin-top: 0%;
+  }
+ 
+  
+  .footerSM ul:after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+
   
 
   
@@ -303,18 +353,15 @@ body {
 /* Lasses kode */
 #imageSlides {
   margin-left: 25%;
+ width: 100%;
  
 }
-
-
-
-
 header{
   display:flex;
 }
 
 header > div{
-  min-width:85%;
+  width: 100%;
   
   min-height:200px;
 }
@@ -322,11 +369,7 @@ header > div > div{
   flex-direction: column;
   width:100%;
   min-height:50%;
-
-
 }
-
-
 #imageSlides img{
   width: 100%;
  max-height: auto;
@@ -340,6 +383,7 @@ header > div > div{
   position: absolute;
   display: flex;
   width:100%;
+  
 }
 .slide h3{
   position: absolute;

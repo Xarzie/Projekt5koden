@@ -44,9 +44,9 @@ function toggleNavPanel(x) {
 
 /* lasses kode */
 
-let image1 = { src: "img1.png", alt: "123", bannertext: "Omsorg for mennesker" };
-let image2 = { src: "img2.png", alt: "345", bannertext: "Ligelig fordeling af ressourcer" };
-let image3 = { src: "img3.png", alt: "567", bannertext: "Omsorg for Jorden" };
+let image1 = { src: "img1.png", alt: "Bannerbillede1", bannertext: "Omsorg for mennesker" };
+let image2 = { src: "img2.png", alt: "bannerbillede2", bannertext: "Ligelig fordeling af ressourcer" };
+let image3 = { src: "img3.png", alt: "bannerbilled3", bannertext: "Omsorg for Jorden" };
 
 var images = [image1, image2, image3,];
 
