@@ -352,30 +352,28 @@ body {
 
 /* Lasses kode */
 #imageSlides {
-  margin-left: 25%;
- width: 100%;
  
+ width: 100%;
+
 }
 header{
   display:flex;
+  margin-bottom: 100px;
 }
 
 header > div{
   width: 100%;
   
-  min-height:200px;
+  min-height:150px;
 }
 header > div > div{
   flex-direction: column;
   width:100%;
-  min-height:50%;
+  
+  
 }
 #imageSlides img{
   width: 100%;
- max-height: auto;
- max-width: 50%;
- 
-
 }
 
 .slide{
@@ -387,8 +385,9 @@ header > div > div{
 }
 .slide h3{
   position: absolute;
-  top:75px;
-  left:18%;
+  top: 30%;
+  left: 40%;
+  
   font-size: 2em;
   color: #ffffff;
   text-shadow: -1px -1px 0 #000;
@@ -411,6 +410,26 @@ header > div > div{
 
 
       /* Media qurries */
+@media screen and (max-width: 1920px) {
+  header{
+    display:flex;
+    margin-bottom: -15%;
+}
+@media screen and (max-width: 1600px) {
+  header{
+    display:flex;
+    margin-bottom: -20%;
+}
+.slide h3{
+  position: absolute;
+  top: 30%;
+  left: 30%; 
+}
+@media screen and (max-width: 1300px) {
+  header{
+    display:flex;
+    margin-bottom: -40%; }
+
 
 @media screen and (max-width: 1100px) {
   div#topbar > #sections_btn_holder > button{ 
@@ -424,6 +443,10 @@ header > div > div{
           .stickytopbar { 
             margin-left: 0.5%;
           }
+            header{
+              display:flex;
+              margin-bottom: 0%;
+            }
 
 
 /* Contact */
@@ -466,7 +489,10 @@ header > div > div{
 .contactus li span p {
   margin-top: 10%;
 }}
-
+@media screen and (max-width: 850px) {
+#imageSlides img{
+  width: 105%;
+}}
 
 @media screen and (max-width: 800px) {
   .contactus h5 {
@@ -510,10 +536,18 @@ header > div > div{
               .stickytopbar { 
                 margin-left: 0.5%;
               }
-            
-
+              #imageSlides img{
+                width: auto;
+              }
+            }
+@media screen and (max-width: 650px) {
+  #imageSlides img{
+    width: auto;
+  }
+}
       @media screen and (max-width: 600px) {
-       
+        
+      }
         .contactus h5 {
           font-size: 1.15em;
           margin-left: 0%;
@@ -531,10 +565,11 @@ header > div > div{
             }
     .contactus li img{
       width: 80%;
-    }}
+    }
 
 @media screen and (max-width: 450px) {
-
+ 
+}
   .contactus h3 {
     font-size: 1.2em;
   }
@@ -548,6 +583,4 @@ header > div > div{
   
     .contactus textarea {
       width: 400px;
-      }}}
-
-    
+      }}}}
