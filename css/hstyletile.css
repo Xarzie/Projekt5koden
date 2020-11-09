@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 
   font-family: 'Questrial', sans-serif;
@@ -6,7 +10,7 @@ body {
 
 /* Contactus Float for all article Content. */ 
 .contactus{
-    margin-top: 50px;
+    margin-top: 175px;
   }
  
   .overSkrift {
@@ -101,11 +105,11 @@ body {
 
       .contactus h5 {
         font-size: 1.4em;
-        margin-top: 10%;
+        margin-top: -0%;
         margin-bottom: 6%;
       }
       
-
+/* bruges til tekst under kontaktmenu */
 .tekstsizeiforkerttegnnavn {
   font-size: 0.8em;
   color: red;
@@ -124,7 +128,7 @@ body {
   top: 15px;
   left: 0px;
   }
-/*
+/* ignorer det her - aner faktisk ikke hvorfor det stadig er her 
 .backgroundmenuaside {
   max-width: 324px;
   position: absolute;
@@ -173,12 +177,13 @@ body {
     background: white;
     height:540px; /* value skal være mindre en Js value i function - kan ændre hvis menu skal være større */
     }
+    /* gør den klistert */
    .stickytopbar {
       position: sticky;
       top: 0;
       margin-left: -0%;
     }
-    
+/* indholdet i burger menu */    
 
 .backgroundmenu {
   box-shadow: gray;
@@ -280,7 +285,7 @@ body {
     text-shadow: -1px -1px 0 #292929;
     }
 
-
+/* Hvis der skal flere mediakanaler 
   .Youtube {
   position: absolute;
   top: 460px;
@@ -290,14 +295,17 @@ body {
   position: absolute;
   top: 460px;
   left: 120px;
-  }
+  } */
+  /* placering af logo */
   .logoiMenu {
   position: absolute;
-  top: 400px;
-  left: 75px;
+  top: 410px;
+  left: 60px;
+  background: white;
+  border-radius: 100px 100px 100px 100px;
   }
 
-
+/* footeren */
   .footerSM h5 {
     font-size: 1.4em;
   }
@@ -414,6 +422,11 @@ header > div > div{
   header{
     display:flex;
     margin-bottom: -15%;
+
+}
+
+.contactus{
+  margin-top: 400px;
 }
 @media screen and (max-width: 1600px) {
   header{
@@ -470,6 +483,9 @@ header > div > div{
 .contactus h5 {
   font-size: 1.15em;
   margin-bottom: 40px;
+    margin-top: 5%;
+   
+  }
 }
 .contact-form input {
   width: 500px;
@@ -583,4 +599,4 @@ header > div > div{
   
     .contactus textarea {
       width: 400px;
-      }}}}
+      }}}
